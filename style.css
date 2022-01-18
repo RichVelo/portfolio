@@ -1,11 +1,13 @@
 html {
     font-size: 10px;
     font-family: 'IBM Plex Sans', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
 }
 /* Colours, widths and heights subject to change - tbh I'm likely to change it all */
 .nav-bar {
     position: relative;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,9 +17,10 @@ html {
 }
 
 .nav-links {
-    width: 20%;
+    width: 45vw;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
     text-decoration: none;
     color: #ffffff;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -48,28 +51,116 @@ main {
     
 }
 .intro {
-    min-height: 60vh;
-}
-.projects {
+    min-height: 40vh;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+        
+    }
+.intro-content {
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-    justify-content: space-evenly;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 60vw;
+}
+.intro img {
+    background-color: #ffffff;
+    max-width: 200px;
+    max-height: 200px;
+}
+.intro-detail {
+    padding-left: 15px;
+    border-left: grey solid 1px;
+    flex-wrap: wrap;
+}
+.intro-detail h2 {
+    font-size: 2rem;
+    color: #1F79A3;
+}
+
+.intro-detail h3 {
+    font-size: 1.5rem;
+    color: #1F79A3
+
+}
+
+.intro-detail p {
+    font-size: 1.5rem;
+    color: #1F79A3
+}
+
+.projects {
+    display: flex;
+	flex-direction: column;
     background-color: #1F79A3;
     padding: 25px;
     gap: 10px;
     min-height: 60vh;
-
+    margin-bottom: 20px;
 }
 
+.project-content {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.project-content img {
+    background-color: #ffffff;
+    min-width: 100px;
+    min-height: 75px;
+    max-width: 350px;
+    max-height: 200px;
+    justify-content: center;
+}
+
+.content-details h2 {
+    font-size: 2rem;
+}
+
+.content-details h3 {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
 main footer {
     margin: 0 auto;
-    width: 50%;
+    width: 60vh;
     background-color: #1F79A3;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-evenly;
     min-height: 5vh;
+    max-height: 5vh;
+    font-size: 2rem;
 }
 
-.socials-icons {
+.fa {
+        padding: 5px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 20px 2px;
+      }
 
-}
+.fa:hover {
+          opacity: 0.5;
+      }
+.fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+
+.fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+    
+.fa-instagram {
+        background: #125688;
+        color: white;
+      }
