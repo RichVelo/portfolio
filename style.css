@@ -1,35 +1,75 @@
-
+html {
+    font-size: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 /* Colours, widths and heights subject to change - tbh I'm likely to change it all */
 .nav-bar {
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: #bfbcbb;
+    justify-content: center;
+    background-color: #1F79A3;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .nav-links {
-    width: 10%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.banner {
-    width: 100%;
-    height: 50px;
-    background-color: #bfbcbb;
+.nav-links a:link{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
 }
 
-.main {
+.nav-links a:visited {
+    color: #ffffff;
+}
+
+.nav-links a:hover {
+    color: #1F79A3;
+    background-color: #ffffff;
+}
+
+main {
+    width: 100%; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.intro {
+    min-height: 60vh;
+}
+.projects{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #1F79A3;
+    padding: 25px;
+    gap: 10px;
+    min-height: 60vh;
+
+}
+
+main footer {
+    margin: 0 auto;
     width: 50%;
-    margin-left: 25%;
+    background-color: #1F79A3;
+    justify-content: center;
+    min-height: 5vh;
 }
 
-.main footer {
-    width: 100%;
-    background-color: #bfbcbb;
+.socials-icons {
+
 }
