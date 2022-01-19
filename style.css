@@ -19,6 +19,11 @@ html {
     margin-bottom: 25px;
 }
 
+.nav-bar img {
+    max-width: 75px;
+    min-width: 75px;
+}
+
 .nav-links {
     width: 45vw;
     display: flex;
@@ -90,6 +95,7 @@ main {
 
 .intro-detail p {
     font-size: 1.5rem;
+    font-weight: bold;
     color: #1F79A3
 }
 
@@ -109,11 +115,9 @@ main {
     gap: 25px;
     width: 60vw;
     margin: 0 auto;
+    font-size: 1.5rem;
 }
-.embed-codepen {
-    max-width: 50%;
-    min-width: 50%;
-}
+
 .project-content img {
     background-color: #ffffff;
     min-width: 100px;
@@ -134,11 +138,11 @@ main {
 
 .contact {
     border: 1px #1F79A3 solid;
-    max-width: 60vw;
-    min-width: 60vw;
+    max-width: 40vw;
+    min-width: 40vw;
     margin: 0 auto;
     margin-bottom: 20px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding: 10px;
 }
@@ -146,6 +150,12 @@ main {
 .contact h2 {
     font-size: 1.5rem;
     color: #1F79A3;
+}
+
+.socials-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
 main footer {
@@ -159,12 +169,9 @@ main footer {
 }
 
 .fa {
-        padding: 5px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
+        padding: 25px;
         text-decoration: none;
-        margin: 20px 2px;
+        font-size: 30px;
       }
 
 .fa:hover {
@@ -184,3 +191,100 @@ main footer {
         background: #125688;
         color: white;
       }
+.fa-codepen {
+    color: white;
+    background: #072738;
+}
+
+.fa-github {
+    color: white;
+    background: #1f6b94;
+}
+
+.back-up {
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .nav-bar {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        min-width: 80vw;
+    }
+    .nav-bar img {
+        margin: 0 auto;
+    }
+    .nav-links {
+          margin: 0 auto;;
+    }
+
+    .intro-content {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        min-width: 90vw;
+    }
+
+    .intro-content img {
+        margin: 0 auto;
+    }
+    
+    .intro-detail {
+        border-top: 1px solid grey;
+        border-left: none;
+        min-width: 90%;
+    }
+
+    main footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+   .back-up {
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        min-width: 90vw;
+    }
+
+    .project-content {
+        min-width: 90%;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .project-content p {
+        font-size: 1.25rem;
+    }
+
+    .project-content img {
+        min-width: 90%;
+    }
+    
+    .project-detail {
+        min-width: 90%;
+    }
+
+    .contact {
+        margin-top: 5px;
+        min-width: 85vw;
+    }
+
+    .fa {
+        padding: 20px;
+        text-decoration: none;
+        font-size: 205x;
+    }
+}
