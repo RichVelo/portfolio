@@ -4,7 +4,10 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 20px;
 }
-/* Colours, widths and heights subject to change - tbh I'm likely to change it all */
+* { 
+    box-sizing: border-box; 
+}
+
 .nav-bar {
     position: relative;
     width: 100vw;
@@ -23,7 +26,6 @@ html {
     justify-content: center;
     text-decoration: none;
     color: #ffffff;
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -45,26 +47,22 @@ html {
 
 main {
     width: 100%; 
-    font-family: 'IBM Plex Sans', sans-serif;
     text-decoration: none;
     color: #ffffff;
     
 }
-.intro {
+
+.intro-content {
     min-height: 40vh;
     background-color: #ffffff;
     padding: 25px;
-    margin-bottom: 20px;
-        
-    }
-.intro-content {
     display: flex;
 	flex-direction: row;
     gap: 15px;
     margin: 0 auto;
     max-width: 60vw;
 }
-.intro img {
+.intro-content img {
     background-color: #ffffff;
     max-width: 200px;
     max-height: 200px;
@@ -74,6 +72,11 @@ main {
     border-left: grey solid 1px;
     flex-wrap: wrap;
 }
+.intro-detail h1 {
+    font-size: 2rem;
+    color: #1F79A3;
+}
+
 .intro-detail h2 {
     font-size: 2rem;
     color: #1F79A3;
@@ -107,7 +110,10 @@ main {
     width: 60vw;
     margin: 0 auto;
 }
-
+.embed-codepen {
+    max-width: 50%;
+    min-width: 50%;
+}
 .project-content img {
     background-color: #ffffff;
     min-width: 100px;
@@ -118,24 +124,38 @@ main {
 }
 
 .content-details h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-.content-details h3 {
-    font-size: 1.5rem;
+.content-details p {
+    font-size: 2rem;
     flex-wrap: wrap;
 }
+
+.contact {
+    border: 1px #1F79A3 solid;
+    max-width: 60vw;
+    min-width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    color: #1F79A3;
+}
+
 main footer {
     margin: 0 auto;
-    width: 60vh;
+    max-width: 60vh;
+    min-width: none;
     background-color: #1F79A3;
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    justify-content: space-evenly;
-    min-height: 5vh;
-    max-height: 5vh;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .fa {
