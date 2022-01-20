@@ -9,11 +9,6 @@ html {
 }
 
 .nav-bar {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 100%;
-=======
->>>>>>> 7e4f6ea9a0d742b07bbd03c2b03dd4521b7b3b0a
     display: flex;
     justify-content: center;
     background-color: #1F79A3;
@@ -21,8 +16,7 @@ html {
 }
 
 .nav-bar img {
-    max-width: 75px;
-    min-width: 75px;
+    width: 75px;
 }
 
 .nav-links {
@@ -34,9 +28,12 @@ html {
     font-weight: bold;
 }
 
+.nav-links a {
+    text-decoration: none;
+}
+
 .nav-links a:link{
     color: #ffffff;
-    text-decoration: none;
     padding: 20px;
 }
 
@@ -52,7 +49,6 @@ html {
 main {
     width: 100%; 
     color: #ffffff;
-    
 }
 
 .intro-content {
@@ -65,16 +61,19 @@ main {
     margin: 0 auto;
     max-width: 60vw;
 }
+
 .intro-content img {
     background-color: #ffffff;
     max-width: 200px;
     max-height: 200px;
 }
+
 .intro-detail {
     padding-left: 15px;
     border-left: grey solid 1px;
     flex-wrap: wrap;
 }
+
 .intro-detail h1 {
     font-size: 2rem;
     color: #1F79A3;
@@ -109,108 +108,6 @@ main {
 
 .project-content {
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-between;
-    margin-left: 30px;
-=======
-    display: flex;
-    justify-content: center;
-    background-color: #1F79A3;
-    margin-top: 25px;
-}
-
-.nav-bar img {
-    max-width: 75px;
-    min-width: 75px;
-}
-
-.nav-links {
-    width: 45vw;
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.nav-links a:link{
-    color: #ffffff;
-    text-decoration: none;
-    padding: 20px;
-}
-
-.nav-links a:visited {
-    color: #ffffff;
-}
-
-.nav-links a:hover {
-    color: #1F79A3;
-    background-color: #ffffff;
-}
-
-main {
-    width: 100%; 
-    /* text-decoration: none; */
-    color: #ffffff;
-    
-}
-
-.intro-content {
-    min-height: 40vh;
-    background-color: #ffffff;
-    padding: 25px;
-    display: flex;
-	flex-direction: row;
-    gap: 15px;
-    margin: 0 auto;
-    max-width: 60vw;
-}
-.intro-content img {
-    background-color: #ffffff;
-    max-width: 200px;
-    max-height: 200px;
-}
-.intro-detail {
-    padding-left: 15px;
-    border-left: grey solid 1px;
-    flex-wrap: wrap;
-}
-.intro-detail h1 {
-    font-size: 2rem;
-    color: #1F79A3;
-}
-
-.intro-detail h2 {
-    font-size: 2rem;
-    color: #1F79A3;
-}
-
-.intro-detail h3 {
-    font-size: 1.5rem;
-    color: #1F79A3
-
-}
-
-.intro-detail p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #1F79A3
-}
-
-.projects {
-    display: flex;
-	flex-direction: column;
-    background-color: #1F79A3;
-    padding: 25px;
-    gap: 10px;
-    min-height: 60vh;
-    margin-bottom: 20px;
-}
-
-.project-content {
-    display: flex;
-=======
->>>>>>> 7e4f6ea9a0d742b07bbd03c2b03dd4521b7b3b0a
     flex-direction: row;
     gap: 25px;
     width: 60vw;
@@ -235,8 +132,7 @@ main {
 
 .contact {
     border: 1px #1F79A3 solid;
-    max-width: 40vw;
-    min-width: 40vw;
+    width: 40vw;
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
@@ -247,9 +143,6 @@ main {
 .contact h2 {
     font-size: 1.5rem;
     color: #1F79A3;
-<<<<<<< HEAD
->>>>>>> a22ebe2 (made some changes per ongoing CR so it all matches)
-=======
 }
 
 .socials-icons {
@@ -261,7 +154,6 @@ main {
 main footer {
     margin: 0 auto;
     max-width: 60vh;
-    min-width: none;
     background-color: #1F79A3;
     font-size: 2rem;
     display: flex;
@@ -269,32 +161,32 @@ main footer {
 }
 
 .fa {
-        padding: 25px;
-        text-decoration: none;
-        font-size: 30px;
-      }
+    padding: 25px;
+    text-decoration: none;
+    font-size: 30px;
+    }
 
 .fa:hover {
-          opacity: 0.5;
-      }
+    opacity: 0.5;
+    }
 .fa-linkedin {
-        background: #007bb5;
-        color: white;
-      }
+    background: #007bb5;
+    color: white;
+    }
 
 .fa-twitter {
-        background: #55ACEE;
-        color: white;
-      }
+    background: #55ACEE;
+    color: white;
+    }
     
 .fa-instagram {
-        background: #125688;
-        color: white;
-      }
+    background: #125688;
+    color: white;
+    }
+
 .fa-codepen {
     color: white;
     background: #072738;
->>>>>>> 7e4f6ea9a0d742b07bbd03c2b03dd4521b7b3b0a
 }
 
 .fa-github {
@@ -391,144 +283,9 @@ main footer {
         min-width: 85vw;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.main footer {
-    width: 100%;
-    background-color: #bfbcbb;
-=======
-.fa {
-        padding: 25px;
-        text-decoration: none;
-        font-size: 30px;
-      }
-
-.fa:hover {
-          opacity: 0.5;
-      }
-.fa-linkedin {
-        background: #007bb5;
-        color: white;
-      }
-
-.fa-twitter {
-        background: #55ACEE;
-        color: white;
-      }
-    
-.fa-instagram {
-        background: #125688;
-        color: white;
-      }
-.fa-codepen {
-    color: white;
-    background: #072738;
-}
-
-.fa-github {
-    color: white;
-    background: #1f6b94;
-}
-
-.back-up {
-    display: none;
-}
-@media screen and (max-width: 800px) {
-    .nav-bar {
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
-        min-width: 80vw;
-    }
-    .nav-bar img {
-        margin: 0 auto;
-    }
-    .nav-links {
-          margin: 0 auto;;
-    }
-
-    .intro-content {
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
-        min-width: 90vw;
-    }
-
-    .intro-content img {
-        margin: 0 auto;
-    }
-    
-    .intro-detail {
-        border-top: 1px solid grey;
-        border-left: none;
-        min-width: 90%;
-    }
-
-    main footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-   .back-up {
-        display: block;
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 2rem;
-        font-weight: bold;
-    }
-
-    .projects {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        min-width: 90vw;
-    }
-
-    .project-content {
-        min-width: 100%;
-        /* flex-wrap: wrap; */
-        flex-direction: column-reverse;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    .project-content p {
-        font-size: 1.25rem;
-    }
-
-    .project-content a {
-        width: 100%;
-    }
-
-    .project-content img {
-        width: 100%;
-        max-width: auto;
-        min-width: auto;
-        max-height: auto;
-        min-height: auto;
-    }
-    
-    .project-detail {
-        min-width: 90%;
-    }
-
-    .contact {
-        margin-top: 5px;
-        min-width: 85vw;
-    }
-
-=======
->>>>>>> 7e4f6ea9a0d742b07bbd03c2b03dd4521b7b3b0a
     .fa {
         padding: 20px;
         text-decoration: none;
         font-size: 205x;
     }
-<<<<<<< HEAD
->>>>>>> a22ebe2 (made some changes per ongoing CR so it all matches)
-=======
->>>>>>> 7e4f6ea9a0d742b07bbd03c2b03dd4521b7b3b0a
 }
