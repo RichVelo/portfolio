@@ -46,7 +46,6 @@ html {
 
 main {
     width: 100%; 
-    /* text-decoration: none; */
     color: #ffffff;
     
 }
@@ -251,7 +250,6 @@ main footer {
 
     .project-content {
         min-width: 100%;
-        /* flex-wrap: wrap; */
         flex-direction: column-reverse;
         font-size: 1.5rem;
         font-weight: bold;
