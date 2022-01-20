@@ -116,8 +116,7 @@ main {
 }
 
 .project-content img {
-    min-width: 100px;
-    min-height: 75px;
+    width: 300px;
     justify-content: center;
 }
 
@@ -256,7 +255,6 @@ main footer {
     }
 
     .project-content {
-        min-width: 100%;
         flex-direction: column-reverse;
         font-size: 1.5rem;
         font-weight: bold;
@@ -298,5 +296,8 @@ main footer {
         flex-direction: column-reverse;
         font-size: 1.5rem;
         font-weight: bold;
+    }
+    .project-content img {
+        width: 100%
     }
 }
