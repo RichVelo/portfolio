@@ -228,6 +228,10 @@ main footer {
         min-width: 90%;
     }
 
+    .intro-detail p {
+        font-size: 1.75rem;
+    }
+
     main footer {
         display: flex;
         flex-direction: row;
@@ -265,19 +269,17 @@ main footer {
     .project-content a {
         width: 100%;
     }
-
-    .project-content img {
-        width: 100%;
-        max-width: auto;
-        min-width: auto;
-        max-height: auto;
-        min-height: auto;
-    }
     
     .project-detail {
         min-width: 90%;
     }
 
+    .project-details h2 {
+        font-size: 2.25rem;
+    }
+    .project-details p {
+        font-size: 1.75rem;
+    }
     .contact {
         margin-top: 5px;
         min-width: 85vw;
@@ -287,5 +289,14 @@ main footer {
         padding: 20px;
         text-decoration: none;
         font-size: 205x;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .project-content {
+        min-width: 100%;
+        flex-direction: column-reverse;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
 }
