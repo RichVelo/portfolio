@@ -129,6 +129,19 @@ main {
     flex-wrap: wrap;
 }
 
+.project-details a {
+    text-decoration: none;
+}
+
+.click-through {
+    padding: 25px;
+    /* text-decoration: none; */
+    font-size: 2rem;
+    color: #ffffff;
+    background: #072738;
+    width: 150px;
+}
+
 .contact {
     border: 1px #1F79A3 solid;
     width: 40vw;
