@@ -23,17 +23,32 @@ header {
     align-items: center;
 }
 
+<<<<<<< HEAD
 a:link {
     text-decoration: none;
     color: #ffffff;
+=======
+.nav-bar img {
+    width: 75px;
+>>>>>>> feature
 }
 
 .links-left a:hover {
     color: #be4bc4;
 }
 
+<<<<<<< HEAD
 a:hover {
     color: #be4bc4;
+=======
+.nav-links a {
+    text-decoration: none;
+}
+
+.nav-links a:link{
+    color: #ffffff;
+    padding: 20px;
+>>>>>>> feature
 }
 
 a:visited {
@@ -45,6 +60,7 @@ a:visited {
     color: #be4bc4;
 }
 
+<<<<<<< HEAD
 nav {
     background-color: #1a1a1a;
     min-height: auto;
@@ -53,6 +69,11 @@ nav {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-between;
+=======
+main {
+    width: 100%; 
+    color: #ffffff;
+>>>>>>> feature
 }
 
 .header-button {
@@ -89,6 +110,7 @@ nav {
     margin: 0;
 }
 
+<<<<<<< HEAD
 .about {
     background-color: #1a1a1a;
     min-height: 60vh;
@@ -114,6 +136,23 @@ nav {
     font-weight: 200;
     margin: 0 auto;
     line-height: normal;
+=======
+.intro-content img {
+    background-color: #ffffff;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.intro-detail {
+    padding-left: 15px;
+    border-left: grey solid 1px;
+    flex-wrap: wrap;
+}
+
+.intro-detail h1 {
+    font-size: 2rem;
+    color: #1F79A3;
+>>>>>>> feature
 }
 
 .languages {
@@ -161,6 +200,7 @@ nav {
     padding-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .contact {
     background-color: #1a1a1a;
     min-height: 30vh;
@@ -169,6 +209,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center
+=======
+.project-content img {
+    width: 300px;
+    justify-content: center;
+>>>>>>> feature
 }
 
 .contact h2 {
@@ -187,8 +232,29 @@ nav {
     font-weight: 300;
 }
 
+<<<<<<< HEAD
 .contact-form form {
     width: 60%;
+=======
+.project-details a {
+    text-decoration: none;
+}
+
+.click-through {
+    padding: 25px;
+    /* text-decoration: none; */
+    font-size: 2rem;
+    color: #ffffff;
+    background: #072738;
+    width: 150px;
+}
+
+.contact {
+    border: 1px #1F79A3 solid;
+    width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+>>>>>>> feature
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -239,6 +305,7 @@ footer {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .closer {
     font-size: 00.75rem;
     color: #ffffff;
@@ -254,17 +321,29 @@ footer {
 }
 
 .socials {
+=======
+main footer {
+    margin: 0 auto;
+    max-width: 60vh;
+    background-color: #1F79A3;
+    font-size: 2rem;
+>>>>>>> feature
     display: flex;
     justify-content: center;
     gap: 5px;
 }
 
 .fa {
+<<<<<<< HEAD
     padding: 15px;
+=======
+    padding: 25px;
+>>>>>>> feature
     text-decoration: none;
     font-size: 30px;
     }
 
+<<<<<<< HEAD
 .fa:hover{
     background-color: #282828;
     color: #be4bc4;
@@ -286,6 +365,27 @@ footer {
 }
 
 .fa-instagram {
+=======
+.fa:hover {
+    opacity: 0.5;
+    }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    
+.fa-instagram {
+    background: #125688;
+    color: white;
+    }
+
+.fa-codepen {
+>>>>>>> feature
     color: white;
     background: #1a1a1a;
 }
@@ -322,7 +422,22 @@ footer {
         margin: 0 auto;
         align-items:center;
     }
+<<<<<<< HEAD
     .skill {
+=======
+    
+    .intro-detail {
+        border-top: 1px solid grey;
+        border-left: none;
+        min-width: 90%;
+    }
+
+    .intro-detail p {
+        font-size: 1.75rem;
+    }
+
+    main footer {
+>>>>>>> feature
         display: flex;
         justify-content: center;
     }
@@ -337,12 +452,23 @@ footer {
         font-family: 'Open Sans', sans-serif;
         font-size: 0.75rem;
         margin: 0 auto;
+<<<<<<< HEAD
         padding-bottom: 3px;
+=======
+        min-width: 90vw;
+    }
+
+    .project-content {
+        flex-direction: column-reverse;
+        font-size: 1.5rem;
+        font-weight: bold;
+>>>>>>> feature
     }
 
     .about {
         width: 100%;
     }
+<<<<<<< HEAD
 
     .about p {
         width: 90vw;
@@ -356,6 +482,22 @@ footer {
         flex-wrap: wrap;
         margin: 0 auto;
         align-items:center;
+=======
+    
+    .project-detail {
+        min-width: 90%;
+    }
+
+    .project-details h2 {
+        font-size: 2.25rem;
+    }
+    .project-details p {
+        font-size: 1.75rem;
+    }
+    .contact {
+        margin-top: 5px;
+        min-width: 85vw;
+>>>>>>> feature
     }
     .contact-form form {
         width: 75%;
@@ -364,5 +506,17 @@ footer {
         margin: 0 auto;
         gap: 5px;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .project-content {
+        min-width: 100%;
+        flex-direction: column-reverse;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .project-content img {
+        width: 100%
     }
 }
