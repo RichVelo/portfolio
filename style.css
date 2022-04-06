@@ -212,8 +212,13 @@ a:visited {
   margin: 30px;
 }
 
+.project-detail p {
+  padding: 20px;
+  border: 2px solid #be4bc4;
+}
+
 .projects img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
